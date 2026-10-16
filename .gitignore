@@ -1,1 +1,10 @@
 /target
+
+# Honeypot output: never commit captured IPs or credentials
+/data/*
+!/data/.gitkeep
+*.log
+*.jsonl
+__pycache__/
+.venv/
+.DS_Store
